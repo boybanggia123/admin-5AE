@@ -1,0 +1,104 @@
+.form_adduser {
+  background-color: white; /* Màu nền chính */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+}
+
+.form_adduser form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group-1 {
+  width: 48%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-group-1 label {
+  color: #000000; /* Màu chữ của nhãn */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group-1 input,
+.form-group-1 select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 4px;
+  background-color: white; /* Màu nền cho input */
+}
+
+.form-group-1 input::placeholder {
+  color: #7f8c8d; /* Màu của placeholder */
+}
+
+.form-group-1 .error {
+  color: #e74c3c; /* Màu đỏ cho lỗi */
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.select-role {
+  appearance: none;
+  /* background-image: url('path/to/your/dropdown-icon.svg'); */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+}
+
+.submit-btn {
+  background-color: #2980b9; /* Màu nút "Tạo tài khoản" */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.hidden {
+  display: none;
+}
+
+.submit-btn:hover {
+  background-color: #3498db; /* Màu khi hover */
+}
+
+button[type="submit"] {
+  width: 48%;
+  height: 40px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  outline: none; /* Ẩn viền khi click vào */
+  border: 1px solid #ccc; /* Viền mặc định */
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #3498db; /* Màu viền khi được focus */
+}
+
